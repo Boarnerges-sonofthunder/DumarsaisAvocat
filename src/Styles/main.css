@@ -1,0 +1,343 @@
+@font-face {
+  font-family: "Great Vibes";
+  src: url("../../public/fonts/GreatVibes-Regular.ttf") format("truetype");
+}
+
+header {
+  background-color: bisque;
+  background-image: url("../../public/img/header_background.jpg");
+  background-size: cover;
+  background-position: center;
+  padding-top: 200px;
+  padding-bottom: 200px;
+  box-shadow: 0 90px 100px 100px #c0c0c0;
+}
+
+.title {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  column-gap: 50px;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(0, 0, 0, 0.5);
+  padding-top: 10px;
+}
+
+.title .logo-title {
+  width: 20%;
+}
+
+.title .logo-title img {
+  width: 38vw;
+  margin-left: -15px;
+}
+
+.title .name-info .name {
+  font-family: Great Vibes, cursive;
+  font-weight: 600;
+  font-size: 24px;
+  color: #efe85f;
+  text-decoration: underline;
+}
+
+.title .name-info .info-title {
+  color: white;
+}
+
+section .defpetitcreance {
+  margin-top: 20px;
+  margin-right: 10px;
+  margin-left: 10px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  font-family: sans-serif;
+  row-gap: 10px;
+  font-size: 14px;
+  padding: 20px 20px;
+  background: #1e3c72; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #2a5298,
+    #1e3c72
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #2a5298,
+    #1e3c72
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  border-radius: 1em;
+}
+
+.defpetitcreance h1 {
+  color: white;
+}
+.defpetitcreance h3 {
+  color: #80b8ef;
+}
+
+section .procedure {
+  margin-top: 20px;
+  margin-right: 10px;
+  margin-left: 10px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  font-family: sans-serif;
+  row-gap: 10px;
+  font-size: 14px;
+  padding: 20px 20px;
+  background: #1e3c72; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #2a5298,
+    #1e3c72
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #2a5298,
+    #1e3c72
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  color: #80b8ef;
+  border-radius: 1em;
+}
+
+section .procedure .defprocedure {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  font-family: sans-serif;
+  row-gap: 20px;
+  font-size: 14px;
+  padding: 20px 20px;
+}
+
+.defprocedure h3 a {
+  color: white;
+}
+
+.defprocedure span a {
+  color: white;
+}
+.number {
+  border-radius: 1em;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  font-size: 30px;
+  background-color: white;
+}
+
+.contante {
+  padding-left: 40px;
+}
+
+section .procedure .defprocedure li {
+  color: white;
+}
+
+section .procedure .defprocedure span {
+  color: white;
+}
+
+.procedure h1 {
+  color: white;
+}
+
+section .presenting {
+  display: flex;
+  flex-direction: row;
+  margin-top: 20px;
+  padding: 0 20px;
+}
+
+section .presenting .balance img {
+  width: 30vw;
+}
+
+section .presenting .intro h3 {
+  font-size: 16px;
+  text-align: center;
+  font-weight: bold;
+  font-family: sans-serif;
+}
+
+section .service-title {
+  text-align: center;
+  margin-top: 20px;
+  margin-left: 100px;
+  margin-right: 100px;
+  border: #3b78b3 solid;
+}
+
+section .service-intro {
+  margin-top: 20px;
+  padding: 15px 20px;
+  border-radius: 1em;
+  color: rgb(59, 59, 59);
+}
+
+section .service-intro span {
+  font-size: 14px;
+  text-align: center;
+  font-family: sans-serif;
+}
+
+.proposition {
+  padding: 0 20px;
+  text-align: center;
+}
+
+section .table {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  font-family: sans-serif;
+  row-gap: 20px;
+  font-size: 14px;
+  padding: 0 30px;
+}
+
+section .table .services {
+  padding: 20px 20px;
+  background-color: #ffffff;
+  border-radius: 1em;
+  color: rgb(59, 59, 59);
+}
+
+section .table .head {
+  padding-bottom: 30px;
+}
+
+section .table .head h1 {
+}
+
+section .table .div-content {
+  color: rgb(59, 59, 59);
+}
+
+section .table .div-content h3 {
+  font-weight: 600;
+  color: #3b78b3;
+}
+
+@media screen and (width >= 67.5em) {
+  header {
+    padding-top: 190px;
+    padding-bottom: 190px;
+  }
+
+  .title {
+    column-gap: 15em;
+  }
+
+  .title .logo-title {
+    width: 5%;
+  }
+
+  .title .logo-title img {
+    width: 20vw;
+  }
+
+  section .defpetitcreance {
+    margin-top: 20px;
+    margin-right: 10px;
+    margin-left: 10px;
+    font-size: 22px;
+    padding: 50px 150px;
+  }
+
+  .info-title{
+    font-size: 22px;
+  }
+
+  section .presenting {
+    padding: 0 200px;
+  }
+
+  section .presenting .balance img {
+    width: 25vw;
+  }
+
+  section .presenting .intro {
+    padding: 150px 80px;
+  }
+
+  section .service-title {
+    margin-left: 500px;
+    margin-right: 500px;
+  }
+
+  section .service-title h2 {
+    font-size: 40px;
+  }
+
+  section .presenting .intro h3 {
+    font-size: 22px;
+  }
+
+  section .service-intro {
+    margin-top: 20px;
+    padding: 15px 100px;
+  }
+
+  section .service-intro span {
+    font-size: 22px;
+  }
+
+  .card {
+    padding-left: 100px;
+    padding-right: 100px;
+    float: right;
+  }
+  .card1 {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .wraper {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .slanted-1 {
+    background: #1e3c72;
+  }
+
+  .slanted-2 {
+    background: #1e3c72;
+    height: 300px;
+  }
+
+  section .procedure .defprocedure {
+    flex-direction: column;
+    font-size: 22px;
+    padding: 0;
+  }
+
+  section .procedure {
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+
+  .proposition {
+    font-size: 20px;
+  }
+
+  section .table {
+    flex-wrap: nowrap;
+    column-gap: 20px;
+    font-size: 20px;
+  }
+
+  section .table .services {
+    padding: 20px 20px;
+  }
+
+}
